@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
 <body>
     
     <div class="container">
-        <h1>EI, PSIU! MEU NIVER TA CHEGANDO </h1>
+        <h1>EI, PSIU! MEU NIVER TA CHEGANDO</h1>
         <h2>CONFIRME SUA PRESENCA</h2>
         <p>Data: 1 de Novembro de 2024</p>
         <p>Local: Minha Casa</p>
@@ -17,11 +17,20 @@
         <p>Faltam:</p>
         <div id="countdown"></div>
         <div class="email">
-            <input type="email" name="email" id="" placeholder="digite seu email para confirmar presenca">
-            <button>ENVIAR</button>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail para confirmar presença">
+            <button id="sendButton">ENVIAR</button>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" id="closeModal">&times;</span>
+            <h2>Obrigado pelo seu cadastro!</h2>
+            <p>Estou muito animado para celebrar com você!</p>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
